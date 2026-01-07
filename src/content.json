@@ -1,0 +1,31 @@
+{
+    "techStack": [
+        "Frontend: React, Vue, HTML, CSS, JavaScript, TypeScript",
+        "Backend: Node.js, Express, PHP, MySQL, MongoDB",
+        "Database: MySQL, MongoDB, PostgresSQL",
+        "Tools: Git, Vite, CI/CD, Vercel"   
+    ],
+    "experienceSnapshot": [
+        "5+ years in professional web development",
+        "E-Commerce & outdoor industry focus",
+        "React, Vue, Node.js, PHP",
+        "Cross-functional team collaboration"
+    ],
+    "mtbGroupRide": {
+        "title": "MTB Group Ride Platform",
+        "attributes": [
+            "Custom full-stack app",
+            "Connecting riders & trails",
+            "Live platform with active users"
+        ]
+    },
+    "yt": {
+        "title": "YT Industries E-Commerce",
+        "attributes": [
+            "5 years at YT Industries",
+            "High-traffic online store",
+            "Led Fronend Development"
+        ]
+    },
+    "about": "Full Stack Developer with expertise delivering high-impact e-commerce solutions. Led the frontend architecture for YT Industries’ flagship DTC platform, supporting 40 k daily visitors and generating over €300 k in daily revenue while improving performance and accessibility. Seeking to apply proven full-stack and UI/UX skills to drive growth and user satisfaction in a fast-paced product team."
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: InterVariable, ui-sans-serif, system-ui, sans-serif;
+  --color-primary: oklch(0.84 0.18 117.33);
+  --color-background-light: oklch(0.99 0 0);
+  --color-background-dark: oklch(0.53 0.12 118.34);
+}
+
+@layer theme {
+  :root {
+    --app-bg: var(--color-background-light);
+  }
+  .dark {
+    --app-bg: var(--color-background-dark);
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  body {
+    @apply bg-gray-100 text-black;
+  }
+}
