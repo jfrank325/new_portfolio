@@ -1,5 +1,6 @@
 import BasicButton from "./Basics/BasicButton";
 import List from "./List";
+import { Link } from "react-router-dom";
 
 interface ProjectProps {
   project: {
@@ -12,16 +13,17 @@ interface ProjectProps {
 
 const Project = ({ project }: ProjectProps) => {
   return (
-    <a href={project.url} target="_blank" className={`mb-4 rounded bg-white cursor-pointer`}>
+    <div className={`mb-4 rounded bg-white`}>
       <img src={project.image} alt="" />
       <div className="p-6">
         <h3 className="text-xl pb-1 mb-1 font-bold border-b  border-gray-300">{project.title}</h3>
         <List list={project.attributes} />
-        <BasicButton primary className="mt-4">
-          Case Study &gt;
+        <BasicButton className="mt-4">
+          <Link to={`/project/${project.title}`}>Case Study</Link>
         </BasicButton>
+        <BasicButton primary><a href={project.url} target="_blank">Live Site</a></BasicButton>
       </div>
-    </a>
+    </div>
   );
 };
 

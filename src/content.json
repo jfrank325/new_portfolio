@@ -1,9 +1,9 @@
 {
     "techStack": [
         "Frontend: React, Vue, HTML, CSS, JavaScript, TypeScript",
-        "Backend: Node.js, Express, PHP, MySQL, MongoDB",
+        "Backend: Node.js, Express, PHP Symfony",
         "Database: MySQL, MongoDB, PostgresSQL",
-        "Tools: Git, Vite, CI/CD, Vercel"   
+        "Tools: Git, Vite, CI/CD, Vercel"
     ],
     "experienceSnapshot": [
         "5+ years in professional web development",
@@ -11,25 +11,116 @@
         "React, Vue, Node.js, PHP",
         "Cross-functional team collaboration"
     ],
-    "mtbGroupRide": {
-        "title": "MTB Group Ride Platform",
-        "attributes": [
-            "Custom full-stack app",
-            "Connecting riders & trails",
-            "Live platform with active users"
-        ],
-        "image": "/mtb_group_ride_desktop.png",
-        "url": "https://www.mtbgroupride.com"
-    },
-    "yt": {
-        "title": "YT Industries E-Commerce",
-        "attributes": [
-            "5 years at YT Industries",
-            "High-traffic online store",
-            "Led Fronend Development"
-        ],
-        "image": "/yt_industries.png",
-        "url": "https://www.yt-industries.com"
-    },
+    "projects": [
+        {
+            "title": "MTB Group Ride",
+            "subtitle": "Community-driven group ride planning for mountain bikers",
+            "attributes": [
+                "Custom full-stack app",
+                "Connecting riders & trails",
+                "Live platform with active users"
+            ],
+            "image": "/mtb_group_ride_desktop.png",
+            "url": "https://www.mtbgroupride.com",
+            "techStack": [
+                "React",
+                "Next.js",
+                "PostgresSQL",
+                "Supabase",
+                "MapLibre",
+                "Vercel",
+                "Tailwind CSS"
+            ],
+            "overview": "MTB Group Ride is a full-stack web application designed to make it easier for mountain bikers to discover, organize, and join local group rides. While many existing tools focus on tracking rides or displaying trail data, MTB Group Ride centers on community — helping riders actually meet and ride together in real life.",
+            "problem": {
+                "content": "Group rides are often organized through fragmented tools like Facebook groups, group texts, and forums. This makes it difficult for riders — especially those new to an area — to discover rides or participate consistently. At the same time, popular MTB apps focus heavily on ride tracking and trail information, but not on connecting the people riding those trails.",
+                "note": "Trail data is widely available, but tools that help riders coordinate and build community around that data are lacking."
+            },
+            "solution": {
+                "intro": "MTB Group Ride provides a simple, mobile-friendly platform that allows riders to:",
+                "points": [
+                    "Create and discover group rides in their area",
+                    "View rides in relation to nearby trails using interactive maps",
+                    "RSVP and manage attendance",
+                    "Receive email notifications when rides are updated",
+                    "Browse rides through a clean, calendar-based interface"
+                ],
+                "note": "The experience was intentionally designed to be fast, intuitive, and usable from a phone — including at the trailhead."
+            },
+            "technicalApproach": {
+                "parts": [
+                    {
+                        "title": "Frontend",
+                        "points": [
+                            "Next.js, React",
+                            "Tailwind CSS for styling",
+                            "MapLibre for interactive trail maps"
+                        ]
+                    },
+                    {
+                        "title": "Backend & Data",
+                        "points": [
+                            "PostgreSQL with Prisma ORM",
+                            "Supabase for authentication and data access"
+                        ]
+                    },
+                    {
+                        "title": "Infrastructure",
+                        "points": [
+                            "Deployed on Vercel",
+                            "Email notifications via Mailgun"
+                        ]
+                    }
+                ],
+                "note": "Key technical challenges included designing flexible data models for rides and locations, handling partial trail data coverage, and building the system in a way that could evolve as new regions and integrations are added."
+            },
+            "tradeoffs": [
+                "Focused initial trail mapping on Georgia to validate real-world usage before expanding coverage",
+                "Built web-first rather than native to reduce friction and iterate quickly",
+                "Designed the platform to function even without guaranteed third-party trail APIs"
+            ],
+            "impact": {
+                "points": [
+                    "Live users and recurring ride creation",
+                    "Organic adoption by local MTB groups",
+                    "Direct user feedback actively shaping feature direction"
+                ],
+                "note": "While still early, the platform has validated the core use case of community-focused ride coordination."
+            },
+            "demonstrates": [
+                "End-to-end full-stack ownership",
+                "Product thinking grounded in real user needs",
+                "Experience shipping, maintaining, and iterating on a live application",
+                "Comfort working with real-world constraints and incomplete data"
+            ]
+        },
+        {
+            "title": "YT Industries E-Commerce",
+            "subtitle": "Frontend development for a global mountain bike e-commerce platform",
+            "attributes": [
+                "5 years at YT Industries",
+                "High-traffic online store",
+                "Led Fronend Development"
+            ],
+            "image": "/yt_industries.png",
+            "url": "https://www.yt-industries.com",
+            "overview": "I spent five years working as a frontend developer at YT Industries, contributing to customer-facing e-commerce experiences used by a global audience across multiple regions. The platform supported high traffic volumes and revenue-critical user flows.",
+            "role": [
+                "Built and maintained production frontend features for the e-commerce site",
+                "Delivered UI work that balanced performance, usability, and conversion goals",
+                "Collaborated closely with product managers, designers, marketers, and analytics teams",
+                "Supported internationalization and localization across multiple markets",
+                "Worked within and improved long-lived codebases under real business deadlines"
+            ], 
+            "techEnvironment": [
+                "Modern JavaScript-based frontend stack",
+                "CMS-driven content and merchandising workflows",
+                "Performance-sensitive, conversion-focused pages",
+                "Analytics-aware development and production QA processes"
+            ],
+            "takeaways": "Working on a global e-commerce platform taught me how production systems evolve over time — including how to balance UX, performance, maintainability, and business requirements. This experience strongly influenced how I approach architecture, tradeoffs, and decision-making when building and owning products independently.",
+            "why": "My time at YT Industries provided long-term exposure to real-world constraints at scale, which directly informed how I later designed, built, and launched my own full-stack application."
+        }
+    ],
     "about": "Full Stack Developer with expertise delivering high-impact e-commerce solutions. Led the frontend architecture for YT Industries’ flagship DTC platform, supporting 40 k daily visitors and generating over €300 k in daily revenue while improving performance and accessibility. Seeking to apply proven full-stack and UI/UX skills to drive growth and user satisfaction in a fast-paced product team."
 }
