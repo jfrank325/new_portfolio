@@ -18,10 +18,10 @@ function App() {
         <Projects />
       </Section>
       <Section title="Experience Snapshot">
-        <List list={content.experienceSnapshot} />
+        <List list={content.experienceSnapshot} position='center' />
       </Section>
       <Section title="Tech Stack">
-        <List list={content.techStack} />
+        <List list={content.techStack} position='center' />
       </Section>
       <Section title="About Me">
         <About />

@@ -17,7 +17,9 @@
             "Custom full-stack app",
             "Connecting riders & trails",
             "Live platform with active users"
-        ]
+        ],
+        "image": "/mtb_group_ride_desktop.png",
+        "url": "https://www.mtbgroupride.com"
     },
     "yt": {
         "title": "YT Industries E-Commerce",
@@ -25,7 +27,9 @@
             "5 years at YT Industries",
             "High-traffic online store",
             "Led Fronend Development"
-        ]
+        ],
+        "image": "/yt_industries.png",
+        "url": "https://www.yt-industries.com"
     },
     "about": "Full Stack Developer with expertise delivering high-impact e-commerce solutions. Led the frontend architecture for YT Industries’ flagship DTC platform, supporting 40 k daily visitors and generating over €300 k in daily revenue while improving performance and accessibility. Seeking to apply proven full-stack and UI/UX skills to drive growth and user satisfaction in a fast-paced product team."
 }

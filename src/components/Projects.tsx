@@ -5,9 +5,9 @@ const projects = [content.mtbGroupRide, content.yt];
 
 const Projects = () => {
     return (
-        <div className="flex justify-between space-x-2">
+        <div className={`flex justify-between space-x-2 grid-cols-${projects.length} md:grid`}>
             {projects.map((project, index) => (
-                    <Project title={project.title} attributes={project.attributes} projectsLength={projects.length} />
+                    <Project key={project.title} project={project} />
             ))}
         </div>
     );

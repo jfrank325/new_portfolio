@@ -4,7 +4,7 @@ const aboutText = content.about;
 
 const About = () => {
     return (
-        <p className="px-4">
+        <p className="px-4 max-w-2/3 mx-auto">
             {aboutText}
         </p>
     );

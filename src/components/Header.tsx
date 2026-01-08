@@ -1,10 +1,10 @@
 import BasicButton from "./Basics/BasicButton";
-import landscapeImage from "../assets/landscape.webp";
+import landscapeImage from "/landscape.webp";
 
 const Header = () => {
   return (
     <div style={{ backgroundImage: `url(${landscapeImage})` }}
-      className={`bg-cover bg-top h-96 relative`}>
+      className={`bg-cover bg-top h-112 relative`}>
       <div className="absolute flex items-center justify-center inset-0 bg-radial from-white via-white/90 to-transparent">
         <header className="flex flex-col justify-center items-center text-center">
           <div className="w-fit mx-4 flex flex-col items-center">
