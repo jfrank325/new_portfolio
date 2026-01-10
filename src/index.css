@@ -18,12 +18,12 @@
 
 @layer base {
   h1 {
-    @apply text-4xl;
+    @apply text-5xl text-gray-800;
   }
   h2 {
-    @apply text-2xl;
+    @apply text-3xl text-gray-800;
   }
   body {
-    @apply bg-gray-100 text-black;
+    @apply bg-gray-100 text-gray-700;
   }
 }

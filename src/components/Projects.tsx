@@ -1,5 +1,5 @@
 import content from '../content.json';
-import Project from './Project';
+import ProjectCard from './ProjectCard';
 
 const projects = [...content.projects];
 
@@ -7,9 +7,9 @@ const gridColsClass = `grid-cols-${projects.length}`;
 
 const Projects = () => {
     return (
-        <div className={`grid justify-between space-x-2 sm:grid-cols-2`}>
+        <div className={`grid justify-between space-x-8 sm:grid-cols-2`}>
             {projects.map((project) => (
-                    <Project key={project.title} project={project} />
+                    <ProjectCard key={project.title} project={project} />
             ))}
         </div>
     );

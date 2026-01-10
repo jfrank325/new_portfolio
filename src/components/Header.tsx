@@ -15,7 +15,7 @@ const Header = () => {
           <p className="py-8">Building production web apps for real users<br /><b>5+ Years</b> in e-commerce</p>
           <div className="flex">
             <BasicButton primary>View Work</BasicButton>
-            <BasicButton>Download Resume</BasicButton>
+            <BasicButton><a href="/Jason_Franklin_CV_FS.docx" download>Download Resume</a></BasicButton>
             <BasicButton>GitHub</BasicButton>
           </div>
         </header>

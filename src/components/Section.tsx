@@ -8,7 +8,7 @@ interface SectionProps {
 const Section = ({ title, children }: SectionProps) => {
 
   return (
-    <section className="my-12">
+    <section className="my-12 max-w-4xl mx-auto">
       <BasicTitle title={title} />
       <div className="py-8">
         {children}

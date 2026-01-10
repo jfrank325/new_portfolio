@@ -1,4 +1,5 @@
 {
+    "about": "Full Stack Developer with expertise delivering high-impact e-commerce solutions. Led the frontend architecture for YT Industries’ flagship DTC platform, supporting 40 k daily visitors and generating over €300 k in daily revenue while improving performance and accessibility. Seeking to apply proven full-stack and UI/UX skills to drive growth and user satisfaction in a fast-paced product team.",
     "techStack": [
         "Frontend: React, Vue, HTML, CSS, JavaScript, TypeScript",
         "Backend: Node.js, Express, PHP Symfony",
@@ -95,8 +96,8 @@
             ]
         },
         {
-            "title": "YT Industries E-Commerce",
-            "subtitle": "Frontend development for a global mountain bike e-commerce platform",
+            "title": "YT Industries",
+            "subtitle": "Frontend & full-stack development for a global mountain bike e-commerce platform",
             "attributes": [
                 "5 years at YT Industries",
                 "High-traffic online store",
@@ -104,7 +105,7 @@
             ],
             "image": "/yt_industries.png",
             "url": "https://www.yt-industries.com",
-            "overview": "I spent five years working as a frontend developer at YT Industries, contributing to customer-facing e-commerce experiences used by a global audience across multiple regions. The platform supported high traffic volumes and revenue-critical user flows.",
+            "overview": "I spent five years at YT Industries working across multiple generations of their e-commerce platform. My role spanned frontend and full-stack development, supporting both a legacy commerce site and a later transition to a headless frontend architecture. \n\nThe platform served a global customer base and supported high-traffic, revenue-critical user flows across multiple regions.",
             "role": [
                 "Built and maintained production frontend features for the e-commerce site",
                 "Delivered UI work that balanced performance, usability, and conversion goals",
@@ -112,15 +113,39 @@
                 "Supported internationalization and localization across multiple markets",
                 "Worked within and improved long-lived codebases under real business deadlines"
             ], 
-            "techEnvironment": [
-                "Modern JavaScript-based frontend stack",
-                "CMS-driven content and merchandising workflows",
-                "Performance-sensitive, conversion-focused pages",
-                "Analytics-aware development and production QA processes"
-            ],
+            "technicalApproach": {
+                "parts": [
+                    {
+                        "title": "Frontend",
+                        "points": [
+                            "Vue.js, Nuxt",
+                            "Tailwind CSS",
+                            "Component-based UI architecture",
+                            "Headless frontend consuming backend APIs"
+                        ]
+                    },
+                    {
+                        "title": "Backend",
+                        "points": [
+                            "PHP (Symfony)",
+                            "Shopware 5 → Shopware 6",
+                            "MySQL database",
+                            "Backend feature development and data modeling within an e-commerce system"
+                        ]
+                    },
+                    {
+                        "title": "Architecture & Platform",
+                        "points": [
+                            "Monolithic → headless frontend transition",
+                            "API-driven communication between frontend and commerce backend",
+                            "CMS-driven content and merchandising workflows"
+                        ]
+                    }
+                ],
+                "note": "The platform evolved significantly over my tenure, requiring adaptability to new technologies and architectures while maintaining a focus on delivering reliable, high-quality user experiences."
+            },
             "takeaways": "Working on a global e-commerce platform taught me how production systems evolve over time — including how to balance UX, performance, maintainability, and business requirements. This experience strongly influenced how I approach architecture, tradeoffs, and decision-making when building and owning products independently.",
-            "why": "My time at YT Industries provided long-term exposure to real-world constraints at scale, which directly informed how I later designed, built, and launched my own full-stack application."
+            "why": "My time at YT Industries grounded my development approach in real-world constraints: legacy systems, incremental modernization, cross-team collaboration, and long-term maintainability. It gave me a strong foundation for working as a frontend-leaning full-stack developer on modern, product-driven teams."
         }
-    ],
-    "about": "Full Stack Developer with expertise delivering high-impact e-commerce solutions. Led the frontend architecture for YT Industries’ flagship DTC platform, supporting 40 k daily visitors and generating over €300 k in daily revenue while improving performance and accessibility. Seeking to apply proven full-stack and UI/UX skills to drive growth and user satisfaction in a fast-paced product team."
+    ]
 }
