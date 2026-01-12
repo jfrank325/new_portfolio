@@ -1,24 +1,47 @@
 {
-    "about": "Full Stack Developer with expertise delivering high-impact e-commerce solutions. Led the frontend architecture for YT Industries’ flagship DTC platform, supporting 40 k daily visitors and generating over €300 k in daily revenue while improving performance and accessibility. Seeking to apply proven full-stack and UI/UX skills to drive growth and user satisfaction in a fast-paced product team.",
-    "techStack": [
-        "Frontend: React, Vue, HTML, CSS, JavaScript, TypeScript",
-        "Backend: Node.js, Express, PHP Symfony",
-        "Database: MySQL, MongoDB, PostgresSQL",
-        "Tools: Git, Vite, CI/CD, Vercel"
-    ],
+    "title": "Frontend Engineer",
+    "subtitle": "Frontend Engineer shipping production e-commerce apps\n5+ years delivering high-traffic, revenue-critical experiences",
+    "about": "Frontend Engineer with senior-level experience building and scaling high-impact e-commerce platforms. Led frontend architecture for YT Industries’ flagship DTC site, supporting ~40k daily users and €300k+ in daily revenue while improving performance and accessibility. Brings strong backend experience and a product-focused mindset to modern, cross-functional teams. Before becoming a developer, I spent years as a professional dancer and now leverage that discipline and creativity to deliver thoughtful, user-focused applications.",
+    "techStack": {
+        "Frontend": [
+            "React",
+            "Next.js",
+            "Vue",
+            "Nuxt",
+            "JavaScript (ES6+)",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "Tailwind CSS"
+        ],
+        "Backend": [
+            "Node.js",
+            "Express",
+            "PHP (Symfony)"
+        ],
+        "Data & Infrastructure": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "Vercel",
+            "Supabase",
+            "Git",
+            "CI/CD"
+        ]
+    },
     "experienceSnapshot": [
-        "5+ years in professional web development",
-        "E-Commerce & outdoor industry focus",
-        "React, Vue, Node.js, PHP",
-        "Cross-functional team collaboration"
+        "5+ years building production web applications",
+        "Senior-level frontend experience in e-commerce & outdoor industry",
+        "React, Vue, Next.js, Nuxt.js, JavaScript",
+        "Strong backend experience collaborating across APIs and databases"
     ],
     "projects": [
         {
             "title": "MTB Group Ride",
             "subtitle": "Community-driven group ride planning for mountain bikers",
             "attributes": [
-                "Custom full-stack app",
-                "Connecting riders & trails",
+                "Product-driven full-stack application",
+                "Community-first UX",
                 "Live platform with active users"
             ],
             "image": "/mtb_group_ride_desktop.png",
@@ -100,19 +123,19 @@
             "subtitle": "Frontend & full-stack development for a global mountain bike e-commerce platform",
             "attributes": [
                 "5 years at YT Industries",
-                "High-traffic online store",
-                "Led Fronend Development"
+                "High-traffic global e-commerce platform",
+                "Frontend leadership with backend experience"
             ],
             "image": "/yt_industries.png",
             "url": "https://www.yt-industries.com",
-            "overview": "I spent five years at YT Industries working across multiple generations of their e-commerce platform. My role spanned frontend and full-stack development, supporting both a legacy commerce site and a later transition to a headless frontend architecture. \n\nThe platform served a global customer base and supported high-traffic, revenue-critical user flows across multiple regions.",
+            "overview": "I spent five years at YT Industries working on multiple generations of their global e-commerce platform. My role focused primarily on frontend development, with additional full-stack responsibilities on a legacy commerce system, and later contributing to a transition toward a headless frontend architecture.",
             "role": [
                 "Built and maintained production frontend features for the e-commerce site",
                 "Delivered UI work that balanced performance, usability, and conversion goals",
                 "Collaborated closely with product managers, designers, marketers, and analytics teams",
                 "Supported internationalization and localization across multiple markets",
                 "Worked within and improved long-lived codebases under real business deadlines"
-            ], 
+            ],
             "technicalApproach": {
                 "parts": [
                     {
@@ -130,7 +153,7 @@
                             "PHP (Symfony)",
                             "Shopware 5 → Shopware 6",
                             "MySQL database",
-                            "Backend feature development and data modeling within an e-commerce system"
+                            "Backend feature development and data modeling within an established e-commerce platform"
                         ]
                     },
                     {
@@ -143,6 +166,11 @@
                     }
                 ],
                 "note": "The platform evolved significantly over my tenure, requiring adaptability to new technologies and architectures while maintaining a focus on delivering reliable, high-quality user experiences."
+            },
+            "scale": {
+                "traffic": "~40k daily users",
+                "revenue": "€300k+ daily",
+                "regions": "Multi-region, international storefronts"
             },
             "takeaways": "Working on a global e-commerce platform taught me how production systems evolve over time — including how to balance UX, performance, maintainability, and business requirements. This experience strongly influenced how I approach architecture, tradeoffs, and decision-making when building and owning products independently.",
             "why": "My time at YT Industries grounded my development approach in real-world constraints: legacy systems, incremental modernization, cross-team collaboration, and long-term maintainability. It gave me a strong foundation for working as a frontend-leaning full-stack developer on modern, product-driven teams."

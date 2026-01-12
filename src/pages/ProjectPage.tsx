@@ -13,9 +13,9 @@ const ProjectPage = () => {
 
   const title = useParams().title;
   const project = content.projects.find(p => p.title === title);
-
+console.log(content.projects[0].technicalApproach);
   return (
-    <>
+    <div className="max-w-5xl mx-auto">
       <header className="p-8">
         <h1>{project?.title}</h1>
         <h2 className="pt-4">{project?.subtitle}</h2>
@@ -23,7 +23,7 @@ const ProjectPage = () => {
           <TechStack techStack={project.techStack} />
         )}
       </header>
-      <img src={project?.image} alt={project?.title} />
+      <img src={project?.image} alt={project?.title} className="max-w-5xl mx-auto" />
       <main className="p-8">
         <Section title="Overview">
           <p className="max-w-2xl mx-auto">{project?.overview}</p>
@@ -65,7 +65,7 @@ const ProjectPage = () => {
           </Section>
         )}
       </main>
-    </>
+    </div>
   );
 };
 

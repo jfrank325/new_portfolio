@@ -5,6 +5,7 @@ import List from '../components/BulletList'
 import content from '../content.json'
 import Contact from '../components/Contact'
 import About from '../components/About'
+import TechStackFull from '../components/TechStackFull'
 
 const HomePage = () => {
     return (
@@ -17,9 +18,7 @@ const HomePage = () => {
                 <Section title="Experience Snapshot">
                     <List list={content.experienceSnapshot} position='center' />
                 </Section>
-                <Section title="Tech Stack">
-                    <List list={content.techStack} position='center' />
-                </Section>
+                <TechStackFull techStackFullContent={content.techStack} />
                 <Section title="About Me">
                     <About />
                 </Section>

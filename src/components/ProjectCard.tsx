@@ -14,7 +14,7 @@ interface ProjectCardProps {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className={`mb-4 rounded bg-white`}>
-      <img src={project.image} alt="" />
+      <img src={project.image} alt={project.title} className="h-1/2 mx-auto" />
       <div className="p-6">
         <h3 className="text-xl pb-1 mb-1 font-bold border-b border-gray-300">{project.title}</h3>
         <BulletList list={project.attributes} />

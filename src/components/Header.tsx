@@ -1,5 +1,6 @@
 import BasicButton from "./Basics/BasicButton";
 import landscapeImage from "/landscape.webp";
+import content from '../content.json'
 
 const Header = () => {
   return (
@@ -10,13 +11,13 @@ const Header = () => {
           <div className="w-fit mx-4 flex flex-col items-center">
             <h1>Jason Franklin</h1>
             <div className="h-0.5 w-10/7 my-2 bg-linear-to-r from-transparent via-gray-300 to-transparent"></div>
-            <p className="text-gray-8 text-3">Full-Stack Developer</p>
+            <h2 className="text-gray-8 text-3">{content.title}</h2>
           </div>
-          <p className="py-8">Building production web apps for real users<br /><b>5+ Years</b> in e-commerce</p>
+          <p className="py-8 whitespace-pre-wrap">{content.subtitle}</p>
           <div className="flex">
             <BasicButton primary>View Work</BasicButton>
             <BasicButton><a href="/Jason_Franklin_CV_FS.docx" download>Download Resume</a></BasicButton>
-            <BasicButton>GitHub</BasicButton>
+            <BasicButton><a href="https://github.com/jfrank325" target="_blank">GitHub</a></BasicButton>
           </div>
         </header>
       </div>
