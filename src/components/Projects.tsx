@@ -3,11 +3,9 @@ import ProjectCard from './ProjectCard';
 
 const projects = [...content.projects];
 
-const gridColsClass = `grid-cols-${projects.length}`;
-
 const Projects = () => {
     return (
-        <div className={`grid justify-between space-x-8 sm:grid-cols-2`}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
             {projects.map((project) => (
                     <ProjectCard key={project.title} project={project} />
             ))}

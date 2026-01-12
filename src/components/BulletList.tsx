@@ -5,9 +5,9 @@ interface ListProps {
 
 const BulletList = ({list, position}: ListProps) => {
   return (
-    <ul className={`w-fit list-disc space-y-2 ${position === 'center' ? 'mx-auto' : ''}`}>
+    <ul className={`w-fit list-disc space-y-3 pl-6 ${position === 'center' ? 'mx-auto' : ''}`}>
         {list.map((item, index) => (
-            <li key={index} className="text-gray-700">{item}</li>
+            <li key={index} className="text-gray-700 leading-relaxed">{item}</li>
         ))}
     </ul>
   );
