@@ -23,6 +23,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           url: origin,
           sameAs: [
             'https://github.com/jfrank325',
+            'https://www.linkedin.com/in/jason--franklin',
           ],
           ...data,
         };

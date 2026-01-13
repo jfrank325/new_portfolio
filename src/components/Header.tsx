@@ -58,8 +58,8 @@ const Header = () => {
               <BasicButton
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = '/Jason_Franklin_CV_FS.docx';
-                  link.download = 'Jason_Franklin_CV_FS.docx';
+                  link.href = '/Jason_Franklin_CV.pdf';
+                  link.download = 'Jason_Franklin_CV.pdf';
                   link.click();
                 }}
                 aria-label="Download resume"
