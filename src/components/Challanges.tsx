@@ -17,12 +17,12 @@ const Challanges = ({ problem, solution }: ChallangesProps) => {
         <section className="my-12 max-w-4xl mx-auto border-t pt-8 border-gray-300">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
                 <div className="">
-                    <h2 className="pb-6 text-2xl font-semibold">Problem</h2>
+                    <h2 className="pb-6 text-2xl font-semibold text-center md:text-left">Problem</h2>
                     <p className="leading-relaxed text-gray-700">{problem.content}</p>
                     {problem.note && <p className="pt-4 text-sm text-gray-600 italic">{problem.note}</p>}
                 </div>
                 <div className="">
-                    <h2 className="pb-6 text-2xl font-semibold">Solution</h2>
+                    <h2 className="pb-6 text-2xl font-semibold text-center md:text-left">Solution</h2>
                     <p className="pb-4 leading-relaxed text-gray-700">{solution.intro}</p>
                     <BulletList list={solution.points} />
                 </div>

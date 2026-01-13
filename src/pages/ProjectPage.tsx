@@ -60,8 +60,8 @@ const ProjectPage = () => {
             ← Back to Home
           </BasicButton>
         </nav>
-        <h1 className="text-4xl sm:text-5xl">{project.title}</h1>
-        <h2 className="pt-4 text-xl sm:text-2xl text-gray-600">{project.subtitle}</h2>
+        <h1 className="text-4xl sm:text-5xl text-center md:text-left">{project.title}</h1>
+        <h2 className="pt-4 text-xl sm:text-2xl text-gray-600 text-center md:text-left">{project.subtitle}</h2>
         {project.techStack && (
           <TechStack techStack={project.techStack} />
         )}
