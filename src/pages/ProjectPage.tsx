@@ -74,6 +74,18 @@ const ProjectPage = () => {
           loading="lazy"
         />
       </div>
+      {project.url && (
+        <div className="mb-8 sm:mb-12 text-center">
+          <BasicButton
+            primary
+            onClick={() => window.open(project.url, '_blank', 'noopener,noreferrer')}
+            aria-label={`Visit ${project.title} live site (opens in new tab)`}
+            className="text-lg px-8 py-3"
+          >
+            Visit Live Site →
+          </BasicButton>
+        </div>
+      )}
       <main className="pb-8 sm:pb-12">
         <Section title="Overview">
           <p className="max-w-2xl mx-auto text-lg leading-relaxed text-gray-700">{project.overview}</p>
